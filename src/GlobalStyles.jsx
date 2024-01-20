@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 /* ---------------------------------- reset --------------------------------- */
@@ -41,7 +41,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} 
+`;
 
-  
+export const Container = styled.div`
+  width: 100%;
+  padding: 0 60px;
+  margin: 0 auto;
 `;
