@@ -3,7 +3,7 @@ import styled, { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 /* ---------------------------------- reset --------------------------------- */
   body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inconsolata", monospace;
   margin: 0;
 }
 
@@ -48,4 +48,5 @@ export const Container = styled.div`
   width: 100%;
   padding: 0 60px;
   margin: 0 auto;
+  background-color: #dbe7c95c;
 `;
