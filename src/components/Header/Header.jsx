@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ProfilePhoto from "../../img/avatar.jpg";
+import ProfilePhoto from "../../img/avatar.png";
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 
 const Container = styled.div`
