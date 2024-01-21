@@ -34,7 +34,7 @@ const StyledTitle = styled.p`
   margin: 10px 0;
 `;
 
-const StyledDescr = styled.p`
+const StyledDescription = styled.p`
   font-size: 18px;
   text-align: center;
 `;
@@ -93,7 +93,7 @@ const OverlayText = styled.div`
 export {
   Post,
   OverlayText,
-  StyledDescr,
+  StyledDescription,
   StyledTitle,
   StyledToolList,
   StyledToolListItem,

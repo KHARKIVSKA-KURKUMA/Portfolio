@@ -1,10 +1,11 @@
 import { CiLink } from "react-icons/ci";
 import { SlSocialGithub } from "react-icons/sl";
+import PropTypes from "prop-types";
 import {
   Post,
   ItemAbout,
   OverlayText,
-  StyledDescr,
+  StyledDescription,
   StyledTitle,
   StyledToolList,
   StyledToolListItem,
@@ -26,7 +27,7 @@ const ProjectItem = ({ project }) => {
         </StyledToolList>
       </ItemAbout>
       <OverlayText>
-        <StyledDescr>{description}</StyledDescr>
+        <StyledDescription>{description}</StyledDescription>
         <LinksList>
           <li>
             <LinkToSite
@@ -46,6 +47,17 @@ const ProjectItem = ({ project }) => {
       </OverlayText>
     </Post>
   );
+};
+
+ProjectItem.propTypes = {
+  project: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    overlay: PropTypes.string.isRequired,
+    tools: PropTypes.arrayOf(PropTypes.string).isRequired,
+    href: PropTypes.string.isRequired,
+    website: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default ProjectItem;

@@ -1,13 +1,6 @@
-import styled from "styled-components";
 import { projects } from "../../../data/projects";
 import ProjectItem from "./ProjectItem/ProjectItem";
-
-const PortfolioSummary = styled.ul`
-  margin-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-`;
+import { PortfolioSummary } from "./PortfolioList.styled";
 
 const PortfolioList = () => {
   return (
