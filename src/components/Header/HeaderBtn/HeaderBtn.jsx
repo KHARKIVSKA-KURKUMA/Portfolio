@@ -1,4 +1,4 @@
-import CV from "../../data/CV.pdf";
+import CV from "../../../data/CV.pdf";
 import { GoDownload } from "react-icons/go";
 import { CiMail } from "react-icons/ci";
 import { LinkToEmail, Button, BtnWrap } from "./HeaderBtn.styled";
