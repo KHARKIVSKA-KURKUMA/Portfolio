@@ -2,7 +2,7 @@ export const projects = [
   {
     overlay: "/src/img/Overlays/filmoteka.png",
     title: "Movie Wall",
-    tools: ["SCSS", "HTML", "JS", "Parcel", "Firebase"],
+    tools: ["SCSS", "HTML", "JavaScript", "Parcel", "Firebase"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/MovieWall",
     website: "https://kharkivska-kurkuma.github.io/MovieWall/",
     description:
@@ -11,7 +11,7 @@ export const projects = [
   {
     overlay: "/src/img/Overlays/car_rent.png",
     title: "Car Rent",
-    tools: ["React", "Redux", "JS", "Vite", "Material UI"],
+    tools: ["React", "Redux", "JavaScript", "Vite", "Material UI"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/CarRent",
     website: "https://kharkivska-kurkuma.github.io/CarRent/",
     description:
@@ -20,7 +20,7 @@ export const projects = [
   {
     overlay: "/src/img/Overlays/healthy-studio.png",
     title: "Healthy Studio",
-    tools: ["SCSS", "HTML", "JS", "Parcel"],
+    tools: ["SCSS", "HTML", "JavaScript", "Parcel"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/Healthy-Studio",
     website: "https://kharkivska-kurkuma.github.io/Healthy-Studio/",
     description:
@@ -29,7 +29,7 @@ export const projects = [
   {
     overlay: "/src/img/Overlays/ice-cream.png",
     title: "Ice Cream",
-    tools: ["SCSS", "HTML", "JS", "Parcel"],
+    tools: ["SCSS", "HTML", "JavaScript", "Parcel"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/IceCream",
     website: "https://kharkivska-kurkuma.github.io/IceCream/",
     description:
@@ -38,7 +38,7 @@ export const projects = [
   {
     overlay: "/src/img/Overlays/hair-factory.png",
     title: "Hair Factory",
-    tools: ["SCSS", "HTML", "JS", "Parcel"],
+    tools: ["SCSS", "HTML", "JavaScript", "Parcel"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/Hair-Factory/",
     website: "https://kharkivska-kurkuma.github.io/Hair-Factory/",
     description:
@@ -47,7 +47,7 @@ export const projects = [
   {
     overlay: "/src/img/Overlays/goose-track.png",
     title: "Goose Track",
-    tools: ["React", "Redux", "JS", "Material UI"],
+    tools: ["React", "Redux", "JavaScript", "Material UI"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/GooseTrack",
     website: "https://kharkivska-kurkuma.github.io/GooseTrack/",
     description:
@@ -56,7 +56,7 @@ export const projects = [
   {
     overlay: "/src/img/Overlays/web-studio.png",
     title: "Web Studio",
-    tools: ["SCSS", "HTML", "JS", "Parcel"],
+    tools: ["SCSS", "HTML", "JavaScript", "Parcel"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/Web-Studio",
     website: "https://kharkivska-kurkuma.github.io/Web-Studio/",
     description:
@@ -65,7 +65,7 @@ export const projects = [
   {
     overlay: "/src/img/Overlays/vantage-studio.png",
     title: "Vantage Studio",
-    tools: ["SCSS", "HTML", "JS", "Parcel"],
+    tools: ["SCSS", "HTML", "JavaScript", "Parcel"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/Vantage-Studio",
     website: "https://kharkivska-kurkuma.github.io/Vantage-Studio/",
     description:
@@ -74,7 +74,7 @@ export const projects = [
   {
     overlay: "/src/img/Overlays/currency-converter.png",
     title: "Currency Converter",
-    tools: ["React", "Redux", "JS", "Material UI"],
+    tools: ["React", "Redux", "JavaScript", "Material UI"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/Currency-Converter",
     website: "https://kharkivska-kurkuma.github.io/Currency-Converter/",
     description:
