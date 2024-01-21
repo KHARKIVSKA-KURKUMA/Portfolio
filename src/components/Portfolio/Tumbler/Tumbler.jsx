@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { Container, TumblerBtn } from "./Tumbler.styled";
+import PropTypes from "prop-types";
 
 const Tumbler = ({ onClick, activeBtn }) => {
   return (
@@ -20,6 +20,11 @@ const Tumbler = ({ onClick, activeBtn }) => {
       </TumblerBtn>
     </Container>
   );
+};
+
+Tumbler.propTypes = {
+  onClick: PropTypes.func.isRequired,
+  activeBtn: PropTypes.string.isRequired,
 };
 
 export default Tumbler;
