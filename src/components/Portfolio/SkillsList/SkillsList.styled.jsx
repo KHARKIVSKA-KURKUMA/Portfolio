@@ -5,7 +5,7 @@ const SkillsSummary = styled.ul`
   flex-wrap: wrap;
   width: 750px;
   gap: 10px;
-  margin: 40px auto 20px;
+  margin: 30px auto 20px;
   justify-content: center;
 `;
 const SkillsItem = styled.li`
