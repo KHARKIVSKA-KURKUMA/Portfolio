@@ -1,12 +1,12 @@
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import Hero from "../Hero/Hero";
+import Portfolio from "../Portfolio/Portfolio";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <Hero />
+      <Portfolio />
       <Footer />
     </>
   );
