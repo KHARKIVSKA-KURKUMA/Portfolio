@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import ProfilePhoto from "../../img/avatar.png";
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
+import HeaderBtn from "./HeaderBtn";
 
 const Container = styled.div`
   display: flex;
@@ -10,13 +11,10 @@ const Container = styled.div`
 const InfoWrap = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 `;
 const ImgWrap = styled.div`
-  margin-left: 70px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
+  margin-left: 50px;
   box-shadow: 10px 10px 5px #789461;
   border-radius: 50%;
   img {
@@ -47,33 +45,38 @@ const Link = styled.a`
   border: none;
   background-color: transparent;
   color: #4f6f52;
-  &:hover {
+  transition: color 500ms cubic-bezier(0.23, 1, 0.32, 1);
+  &:hover,
+  &:focus {
     color: #163020;
   }
 `;
 
 const Header = () => {
   return (
-    <Container>
-      <InfoWrap>
-        <NameSurname>Kateryna Vasiuk</NameSurname>
-        <Position>Frontend developer</Position>
-        <LinkWrap>
-          <Link>
-            <FaGithub size={35} />
-          </Link>
-          <Link>
-            <FaLinkedin size={35} />
-          </Link>
-          <Link>
-            <FaTelegram size={35} />
-          </Link>
-        </LinkWrap>
-      </InfoWrap>
-      <ImgWrap>
-        <img src={ProfilePhoto} alt="Avatar" />
-      </ImgWrap>
-    </Container>
+    <>
+      <Container>
+        <InfoWrap>
+          <NameSurname>Kateryna Vasiuk</NameSurname>
+          <Position>Frontend developer</Position>
+          <LinkWrap>
+            <Link>
+              <FaGithub size={35} />
+            </Link>
+            <Link>
+              <FaLinkedin size={35} />
+            </Link>
+            <Link>
+              <FaTelegram size={35} />
+            </Link>
+          </LinkWrap>
+        </InfoWrap>
+        <ImgWrap>
+          <img src={ProfilePhoto} alt="Avatar" />
+        </ImgWrap>
+      </Container>
+      <HeaderBtn />
+    </>
   );
 };
 
