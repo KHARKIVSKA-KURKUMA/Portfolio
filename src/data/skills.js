@@ -1,7 +1,7 @@
 export const skills = [
   "HTML",
   "CSS3",
-  "SASS",
+  "SCSS",
   "GitHub",
   "JavaScript",
   "React",
@@ -16,6 +16,6 @@ export const skills = [
   "Vite",
   "Parcel",
   "Webpack",
-  "Handlebars",
   "Bootstrap",
+  "Firebase",
 ];
