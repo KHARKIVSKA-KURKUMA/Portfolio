@@ -11,8 +11,9 @@ const SkillsSummary = styled.ul`
   flex-wrap: wrap;
   gap: 10px;
   width: 100%;
-  margin: 30px auto 20px;
+  margin: 30px auto 0px;
   justify-content: center;
+  padding-bottom: 30px;
   ${tablet} {
     width: calc(100% - 50px);
   }

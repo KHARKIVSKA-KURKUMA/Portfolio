@@ -54,6 +54,7 @@ export const Container = styled.div`
   padding: 0 15px;
   margin: 0 auto;
   background-color: #dbe7c92e;
+  min-height: 100vh;
   @media (min-width: 1200px) {
     padding: 0 60px;
   }
