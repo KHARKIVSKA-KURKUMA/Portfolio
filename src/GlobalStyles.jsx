@@ -53,7 +53,7 @@ export const Container = styled.div`
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
-  background-color: #dbe7c95c;
+  background-color: #dbe7c92e;
   @media (min-width: 1200px) {
     padding: 0 60px;
   }

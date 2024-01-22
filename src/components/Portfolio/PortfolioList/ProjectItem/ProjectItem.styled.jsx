@@ -1,13 +1,27 @@
 import styled from "styled-components";
+import {
+  biggerDesktop,
+  blackColor,
+  borderColor,
+  desktop,
+  linksBg,
+  mobile,
+  overlayBg,
+  primaryColor,
+  secondaryColor,
+  tablet,
+  transition,
+  whiteColor,
+} from "../../../../variables/variables";
 
 const Post = styled.li`
   cursor: pointer;
   margin: 10px;
   padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid ${borderColor};
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: calc((100% - 115px) / 3);
+  width: calc(100%);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -21,34 +35,55 @@ const Post = styled.li`
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
   }
+  ${mobile} {
+    width: calc((100% - 45px) / 2);
+  }
+  ${tablet} {
+    width: calc((100% - 70px) / 3);
+  }
+  ${desktop} {
+    width: calc((100% - 115px) / 3);
+  }
 `;
 
 const ItemAbout = styled.div`
-  height: 100px;
+  height: auto;
+  ${tablet} {
+    min-height: 135px;
+  }
+  ${desktop} {
+    min-height: 100px;
+  }
 `;
 
 const StyledTitle = styled.p`
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Inconsolata", monospace;
   font-weight: 900;
   margin: 10px 0;
+  ${desktop} {
+    font-size: 22px;
+  }
+  ${biggerDesktop} {
+    font-size: 28px;
+  }
 `;
 
-const StyledDescription = styled.p`
-  font-size: 18px;
-  text-align: center;
+const LinksList = styled.ul`
+  display: flex;
+  gap: 15px;
 `;
 
 const LinkToSite = styled.a`
+  background-color: ${linksBg};
+  color: ${blackColor};
   margin-top: 10px;
-  background-color: #d2e3c8;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000000;
 `;
 
 const StyledToolList = styled.ul`
@@ -56,18 +91,21 @@ const StyledToolList = styled.ul`
   gap: 5px;
   flex-wrap: wrap;
 `;
-const LinksList = styled.ul`
-  display: flex;
-  gap: 15px;
-`;
 
 const StyledToolListItem = styled.li`
-  background-color: #4f6f52;
-  color: #eef0e5;
-  padding: 5px 15px;
+  background-color: ${primaryColor};
+  color: ${secondaryColor};
+  padding: 5px 10px;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: 600;
+  ${tablet} {
+    padding: 5px 15px;
+    font-weight: 600;
+  }
+  ${biggerDesktop} {
+    font-size: 20px;
+    padding: 5px 20px;
+  }
 `;
 
 const OverlayText = styled.div`
@@ -80,13 +118,30 @@ const OverlayText = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #4f6f52e2;
-  color: #fff;
+  background-color: ${overlayBg};
+  color: ${whiteColor};
   opacity: 0;
-  padding: 30px;
-  transition: opacity 0.3s ease-in-out;
-  ${Post}:hover & {
+  padding: 10px;
+  overflow-y: auto;
+  transition: opacity ${transition};
+  ${Post}:hover &,
+  ${Post}:focus & {
     opacity: 1;
+  }
+  ${desktop} {
+    padding: 30px;
+  }
+`;
+
+const StyledDescription = styled.p`
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+  ${desktop} {
+    font-size: 18px;
+  }
+  ${biggerDesktop} {
+    font-size: 20px;
   }
 `;
 

@@ -20,7 +20,7 @@ export const projects = [
   {
     overlay: "https://i.ibb.co/XDMP0JS/healthy-studio.png",
     title: "Healthy Studio",
-    tools: ["SCSS", "HTML", "JavaScript", "Parcel"],
+    tools: ["JavaScript", "SCSS", "HTML", "Parcel"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/Healthy-Studio",
     website: "https://kharkivska-kurkuma.github.io/Healthy-Studio/",
     description:
