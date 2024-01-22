@@ -1,6 +1,8 @@
+import filmoteka from "../img/Overlays/filmoteka.png";
+
 export const projects = [
   {
-    overlay: "/src/img/Overlays/filmoteka.png",
+    overlay: { filmoteka },
     title: "Movie Wall",
     tools: ["SCSS", "HTML", "JavaScript", "Parcel", "Firebase"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/MovieWall",
