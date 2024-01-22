@@ -1,5 +1,10 @@
 import styled from "styled-components";
-import { desktop, tablet } from "../../../variables/variables";
+import {
+  desktop,
+  secondaryColor,
+  skillsBg,
+  tablet,
+} from "../../../variables/variables";
 
 const SkillsSummary = styled.ul`
   display: flex;
@@ -18,10 +23,10 @@ const SkillsSummary = styled.ul`
 const SkillsItem = styled.li`
   padding: 10px 15px;
   text-align: center;
-  background-color: #597e52;
+  background-color: ${skillsBg};
   border-radius: 10px;
   font-size: 18px;
-  color: #eef0e5;
+  color: ${secondaryColor};
   font-weight: 600;
   ${desktop} {
     font-size: 20px;
