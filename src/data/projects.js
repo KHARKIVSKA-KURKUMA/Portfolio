@@ -1,6 +1,6 @@
 export const projects = [
   {
-    overlay: "/src/img/Overlays/filmoteka.png",
+    overlay: "../../img/Overlays/filmoteka.png",
     title: "Movie Wall",
     tools: ["SCSS", "HTML", "JavaScript", "Parcel", "Firebase"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/MovieWall",
@@ -9,7 +9,7 @@ export const projects = [
       "Team project. As team lead, I spearheaded the development of a movie search website, crafting the project skeleton, implementing filters, and enabling language switching. Website that allows users to search movies based on various categories such as genre, and original language. ",
   },
   {
-    overlay: "/src/img/Overlays/car_rent.png",
+    overlay: "./img/Overlays/car_rent.png",
     title: "Car Rent",
     tools: ["React", "Redux", "JavaScript", "Vite", "Material UI"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/CarRent",
