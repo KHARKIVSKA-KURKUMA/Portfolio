@@ -45,7 +45,7 @@ export const projects = [
       "Individual project. The main content of the website consists of information about different hair services, visually appealing images of their work and clear and concise descriptions of the different services and their prices.",
   },
   {
-    overlay: "/src/img/Overlays/goose-track.png",
+    overlay: "https://i.ibb.co/4S7HJHt/goose-track.png",
     title: "Goose Track",
     tools: ["React", "Redux", "JavaScript", "Material UI"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/GooseTrack",
@@ -54,7 +54,7 @@ export const projects = [
       "Team project. As the Frontend Team Lead, I spearheaded the development of our streamlined productivity and task management platform. I crafted the project skeleton, developed a calendar page for managing schedules, and created a comprehensive statistics page for visualizing productivity data.",
   },
   {
-    overlay: "/src/img/Overlays/web-studio.png",
+    overlay: "https://i.ibb.co/Kq2vZdv/web-studio.png",
     title: "Web Studio",
     tools: ["SCSS", "HTML", "JavaScript", "Parcel"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/Web-Studio",
@@ -63,7 +63,7 @@ export const projects = [
       "Individual project. The website features a modern and minimalist design with a white background and bold typography. The navigation menu is located at the header and links to different sections on the site, including the homepage, portfolio, services, and about page.",
   },
   {
-    overlay: "/src/img/Overlays/vantage-studio.png",
+    overlay: "https://i.ibb.co/rQ7m3DP/vantage-studio.png",
     title: "Vantage Studio",
     tools: ["SCSS", "HTML", "JavaScript", "Parcel"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/Vantage-Studio",
@@ -72,7 +72,7 @@ export const projects = [
       "Individual project. The main content of the website consists of a portfolio of the studio's web design projects, along with information about their services and team.",
   },
   {
-    overlay: "/src/img/Overlays/currency-converter.png",
+    overlay: "https://i.ibb.co/Fw4QctX/currency-converter.png",
     title: "Currency Converter",
     tools: ["React", "Redux", "JavaScript", "Material UI"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/Currency-Converter",
