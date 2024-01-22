@@ -27,6 +27,11 @@ h6 {
   margin: 0;
 }
 
+button {
+  font-family: "Inconsolata", monospace;
+  border: none;
+}
+
 ul {
   margin: 0;
   padding-left: 0;
