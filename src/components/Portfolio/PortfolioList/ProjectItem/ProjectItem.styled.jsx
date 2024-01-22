@@ -54,6 +54,9 @@ const ItemAbout = styled.div`
   ${desktop} {
     min-height: 100px;
   }
+  ${biggerDesktop} {
+    min-height: 135px;
+  }
 `;
 
 const StyledTitle = styled.p`
