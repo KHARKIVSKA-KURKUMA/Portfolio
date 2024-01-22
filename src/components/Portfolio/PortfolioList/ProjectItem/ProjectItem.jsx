@@ -15,9 +15,10 @@ import {
 
 const ProjectItem = ({ project }) => {
   const { title, overlay, tools, href, website, description } = project;
+  console.log("overlay :>> ", overlay);
   return (
     <Post>
-      <img src={overlay} alt="Projects" />
+      <img src={overlay.example} alt={title} />
       <ItemAbout>
         <StyledTitle>{title}</StyledTitle>
         <StyledToolList>

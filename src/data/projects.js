@@ -1,6 +1,7 @@
+import example from "../img/Overlays/filmoteka.png";
 export const projects = [
   {
-    overlay: "/src/img/Overlays/filmoteka.png",
+    overlay: { example },
     title: "Movie Wall",
     tools: ["SCSS", "HTML", "JavaScript", "Parcel", "Firebase"],
     href: "https://github.com/KHARKIVSKA-KURKUMA/MovieWall",
