@@ -6,6 +6,7 @@ const PortfolioSummary = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  padding-bottom: 30px;
   ${desktop} {
     gap: 25px;
   }
