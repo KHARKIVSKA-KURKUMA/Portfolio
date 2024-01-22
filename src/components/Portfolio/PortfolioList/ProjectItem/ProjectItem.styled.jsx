@@ -7,7 +7,7 @@ const Post = styled.li`
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: calc((100% - 150px) / 3);
+  width: calc((100% - 115px) / 3);
   position: relative;
   overflow: hidden;
   display: flex;
