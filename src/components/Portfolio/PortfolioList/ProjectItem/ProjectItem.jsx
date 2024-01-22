@@ -18,7 +18,7 @@ const ProjectItem = ({ project }) => {
   console.log("overlay :>> ", overlay);
   return (
     <Post>
-      <img src={overlay.example} alt={title} />
+      <img src={overlay} alt={title} />
       <ItemAbout>
         <StyledTitle>{title}</StyledTitle>
         <StyledToolList>
