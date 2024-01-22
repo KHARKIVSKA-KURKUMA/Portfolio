@@ -34,7 +34,7 @@ const Header = () => {
               <FaLinkedin size={35} />
             </Link>
             <Link
-              href="https://t.me/Vasiuk_Kateryna"
+              href="https://t.me/kateryna_vasiuk"
               target="_blank"
               rel="noopener noreferrer"
             >
