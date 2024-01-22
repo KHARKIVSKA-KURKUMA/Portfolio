@@ -5,6 +5,8 @@ import {
   primaryColor,
   darkGreen,
   transition,
+  tablet,
+  desktop,
 } from "../../variables/variables";
 
 const Container = styled.div`
@@ -14,13 +16,13 @@ const Container = styled.div`
   flex-wrap: wrap;
   flex-direction: column-reverse;
   align-items: center;
-  @media (min-width: 768px) {
+  ${tablet} {
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: nowrap;
     padding-top: 30px;
   }
-  @media (min-width: 1200px) {
+  ${desktop} {
     padding-top: 40px;
   }
 `;
@@ -28,7 +30,7 @@ const InfoWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media (min-width: 768px) {
+  ${tablet} {
     justify-content: space-between;
     align-items: flex-start;
   }
@@ -41,10 +43,10 @@ const ImgWrap = styled.div`
     width: 150px;
     height: 150px;
   }
-  @media (min-width: 768px) {
+  ${tablet} {
     margin-left: 20px;
   }
-  @media (min-width: 1200px) {
+  ${desktop} {
     margin-left: 40px;
   }
 `;
@@ -54,7 +56,7 @@ const NameSurname = styled.p`
   font-family: "Rubik Doodle Shadow", system-ui;
   color: ${darkGreen};
   text-align: center;
-  @media (min-width: 1200px) {
+  ${desktop} {
     font-size: 54px;
     text-align: start;
   }
