@@ -1,14 +1,30 @@
 import styled from "styled-components";
+import {
+  desktop,
+  hoverDarkGreen,
+  mobile,
+  primaryColor,
+  secondaryColor,
+  whiteColor,
+} from "../../../variables/variables";
 
 const Container = styled.div`
   margin: 20px auto 0;
   display: flex;
   justify-content: center;
   padding: 10px;
-  background-color: #ffffff;
-  width: 660px;
+  background-color: ${whiteColor};
   border-radius: 10px;
-  gap: 5px;
+  gap: 10px;
+  flex-direction: column;
+  ${mobile} {
+    gap: 5px;
+    flex-direction: row;
+    max-width: 620px;
+  }
+  ${desktop} {
+    max-width: 700px;
+  }
 `;
 
 const TumblerBtn = styled.button.attrs((props) => ({
@@ -16,14 +32,16 @@ const TumblerBtn = styled.button.attrs((props) => ({
 }))`
   padding: 15px 10px;
   font-size: 18px;
-  font-family: "Inconsolata", monospace;
-  width: 310px;
-  border: none;
+  width: calc(100%);
   border-radius: 10px;
   background-color: ${({ active }) =>
-    active === "true" ? "#4f6f52" : "#eef0e5"};
-  color: ${({ active }) => (active === "true" ? "#eef0e5" : "#163020")};
+    active === "true" ? `${primaryColor}` : `${secondaryColor}`};
+  color: ${({ active }) =>
+    active === "true" ? `${secondaryColor}` : `${hoverDarkGreen}`};
   cursor: pointer;
+  ${mobile} {
+    width: calc((100% - 5px) / 2);
+  }
 `;
 
 export { Container, TumblerBtn };
