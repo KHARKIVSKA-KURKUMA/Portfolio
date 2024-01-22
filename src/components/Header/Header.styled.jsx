@@ -63,8 +63,9 @@ const NameSurname = styled.p`
 `;
 
 const Position = styled.p`
-  font-size: 28px;
+  font-size: 32px;
   margin-bottom: 10px;
+  font-family: "Grape Nuts", cursive;
   color: ${hoverDarkGreen};
 `;
 
